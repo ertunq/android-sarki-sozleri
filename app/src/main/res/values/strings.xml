@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sarki Sozleri</string>
+    <string name="btnYeniKayitTxt">YENİ KAYIT OLUŞTUR</string>
+    <string name="btnKayitListeleTxt">KAYITLARI LİSTELE</string>
+    <string name="lblBaslikTxt">ŞARKI SÖZLERİ</string>
+    <string name="lblAdminGirisTxt">ADMİN</string>
+    <string name="lblKullaniciTxt">Kullanıcı</string>
+    <string name="txtKullaniciAdHint">Kullanıcı adını giriniz</string>
+    <string name="lblSifreTxt">Şifre</string>
+    <string name="txtSifreHint">Kullanıcı şifresini giriniz</string>
+    <string name="btnAdminGirisText">GİRİŞ</string>
+    <string name="lblSarkiSozuBaslik">Başlık</string>
+    <string name="txtSarkiSozuBaslikHint">Şarkı sözü başlığını giriniz</string>
+    <string name="lblSarkiSozuIcerik">İçerik</string>
+    <string name="btnSarkiSozuKaydetText">KAYDET</string>
+    <string name="txtSarkiSozuIcerikHint">Şarkı sözlerinin tamamını bu bölüme giriniz</string>
+</resources>

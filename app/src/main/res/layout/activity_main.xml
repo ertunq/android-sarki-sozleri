@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:alpha="1"
+        android:background="@drawable/muzik4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#A5CAE6"
+            android:text="@string/lblBaslikTxt"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="3dp"
+            android:textSize="24sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnYeniKayitTxt"
+            android:layout_marginTop="200dp"
+            android:id="@+id/btnYeniKayit"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnKayitListeleTxt"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnListele"/>
+
+
+    </LinearLayout>
+</LinearLayout>

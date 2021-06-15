@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SarkiSozuGirisActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/lblBaslikTxt"
+        android:textColor="#A5CAE6"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linerLayout1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintVertical_bias="0.056">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/lblBaslik"
+                android:text="@string/lblSarkiSozuBaslik" />
+
+            <EditText
+                android:id="@+id/txtSarkiSozuBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLines="1"
+                android:inputType="textNoSuggestions"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/txtSarkiSozuBaslikHint"
+                android:labelFor="@id/lblBaslik"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblIcerik"
+                android:textSize="16sp"
+                android:text="@string/lblSarkiSozuIcerik" />
+
+            <EditText
+                android:id="@+id/txtSarkiSozuIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                android:layout_marginBottom="20dp"
+                android:lines="6"
+                android:minLines="1"
+                android:maxLines="30"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="@string/txtSarkiSozuIcerikHint"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:labelFor="@id/lblIcerik"
+                android:isScrollContainer="true" />
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnSarkiSozuKaydet"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btnSarkiSozuKaydetText" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
